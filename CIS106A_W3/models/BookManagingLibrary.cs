@@ -3,6 +3,10 @@ namespace CIS106A_W3.models {
     public class BookManagingLibrary: BookActions {
         private int nextBookId = 1;
         private Dictionary<int, Book> Library = new Dictionary<int, Book>();
+        /// <summary>
+        /// Main function where most program action takes place or is called
+        /// </summary>
+        /// <returns></returns>
         public void MainProgram() {
             /*
             - This is where the bulk of the program will take place
@@ -51,7 +55,11 @@ namespace CIS106A_W3.models {
                 }
             }
         }
-
+        /// <summary>
+        /// Takes in three string inputs from the user (not as parameters) as the 
+        /// fields for the Book class
+        /// </summary>
+        /// <returns></returns>
         public override string AddBook() {
             Console.WriteLine("please specify the Book Title: ");
             string title = Console.ReadLine();
@@ -60,7 +68,7 @@ namespace CIS106A_W3.models {
             Console.WriteLine("please specify the Book Genre: ");
             string genre = Console.ReadLine();
             Console.WriteLine("");
-
+            
             if (title == "") {
                 Console.WriteLine("Input for books must not be null");
             } else if (author == "") {
@@ -88,7 +96,11 @@ namespace CIS106A_W3.models {
             
             return "You have entered ExitProgram";
         }
-
+        /// <summary>
+        /// retrieves and displays either specified book or all books 
+        /// from the Dictionary "Library"
+        /// </summary>
+        /// <returns></returns>
         public override string DisplayBook() {
             Console.WriteLine("Please specify ID (or type 'all' for entire Library) - ");
             string decide = Console.ReadLine();
@@ -118,6 +130,10 @@ namespace CIS106A_W3.models {
             return "You have entered";
         }
 
+        /// <summary>
+        /// retrieves and removes specified book from Library via book ID
+        /// </summary>
+        /// <returns></returns>
         public override string RemoveBook() {
             Console.WriteLine("Please select book ID- ");
             string removeID = Console.ReadLine();
@@ -136,6 +152,10 @@ namespace CIS106A_W3.models {
             return "You have entered";
         }
 
+        /// <summary>
+        /// Exits the program.
+        /// </summary>
+        /// <returns></returns>
         public override string ExitProgram() {
             Console.WriteLine("You have entered ExitProgram\n");
             Environment.Exit(0);

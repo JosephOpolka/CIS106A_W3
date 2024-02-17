@@ -1,7 +1,6 @@
 namespace CIS106A_W3.models {
 
     public class BookActions {
-        
         public virtual string AddBook() {
             /*
             - take in the three string user inputs as parameters
@@ -23,7 +22,7 @@ namespace CIS106A_W3.models {
             */
             return "Displaying Book";
         }
-
+        
         public virtual string RemoveBook() {
             /*
             - takes in users int input as parameters
@@ -32,7 +31,7 @@ namespace CIS106A_W3.models {
             */
             return "Removed Book";
         }
-
+        
         public virtual string ExitProgram() {
             /*
             - this method does not take parameters
