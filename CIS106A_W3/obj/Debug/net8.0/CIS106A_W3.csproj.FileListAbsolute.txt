@@ -1,0 +1,14 @@
+C:\Users\actio\net_programs\CIS106A_W3\bin\Debug\net8.0\CIS106A_W3.exe
+C:\Users\actio\net_programs\CIS106A_W3\bin\Debug\net8.0\CIS106A_W3.deps.json
+C:\Users\actio\net_programs\CIS106A_W3\bin\Debug\net8.0\CIS106A_W3.runtimeconfig.json
+C:\Users\actio\net_programs\CIS106A_W3\bin\Debug\net8.0\CIS106A_W3.dll
+C:\Users\actio\net_programs\CIS106A_W3\bin\Debug\net8.0\CIS106A_W3.pdb
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\CIS106A_W3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\CIS106A_W3.AssemblyInfoInputs.cache
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\CIS106A_W3.AssemblyInfo.cs
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\CIS106A_W3.csproj.CoreCompileInputs.cache
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\CIS106A_W3.dll
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\refint\CIS106A_W3.dll
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\CIS106A_W3.pdb
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\CIS106A_W3.genruntimeconfig.cache
+C:\Users\actio\net_programs\CIS106A_W3\obj\Debug\net8.0\ref\CIS106A_W3.dll
